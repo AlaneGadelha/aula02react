@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(152, 153, 151);
+}
+.main{
+    max-width: 650px;
+    box-shadow: 0 0 10px black;
+    border-radius: 5px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+}
+.form{
+    margin-top: 20px;
+
+}
+.form label{
+    width: 95%;
+    color:blue;
+    font-size: 15px;
+    font-weight: bold;
+    
+
+}
+.form input[type ="text"]{
+
+    width: 95%;
+    padding: 10px;
+}
+.form input[type ="submit"]{
+
+    width: 30%;
+    margin: 20px auto;
+}
+
